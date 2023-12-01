@@ -1,3 +1,4 @@
+/* Estilos gerais */
 body {
     font-family: 'Archivo', sans-serif;
     box-sizing: border-box;
@@ -9,6 +10,8 @@ body {
 
     background-color: #3B82F6;
 }
+
+/* Estilo do card */
 .card {
     padding: 2rem;
     color: #CBD5E1;
@@ -24,9 +27,17 @@ body {
     background: linear-gradient(90deg, #0F172A 0%, #1E293B 100%, #1E293B 100%);
     box-shadow: 0px 58px 75.4px -46px #172554;
 }
+
+/* Área de perfil */
+.contact-info__name{
+
+    font-size: 40px;
+
+}
+
 h1 + .contact-info__text{
     color: #94A3B8;
-    word-wrap: break-word;
+    margin-bottom: 50px;
 }
 
 .contact-info__profile{
@@ -42,28 +53,48 @@ h1 + .contact-info__text{
     background: url("../img/foto-002.jpeg"), lightgray 100% / contain no-repeat;
 
 }
+.contact-info__social a {
+    text-decoration: none;
+    color: #CBD5E1;
+}
+.contact-info__email, .contact-info__link{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+/* Barra de progresso */
+.progress-bar__text{
+    font-family: Archivo;
+    font-size: 18px;
+}
 
 .progress-bar__item {
-   background-color: #0F172A;
-    
-}
-.progress-bar-inner{
-    background-color: #3B82F6;
-}
+    background-color: #0F172A;
+    margin-top: .75rem;
+    margin-bottom: 1.5rem;
 
-.progress-bar__item {
     width: 300px;
     height: 20px;
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 20px;
+    
 }
 
 .progress-bar-inner {
     height: 100%;
     width: 0;
-    background-color: #3498db;
+    background-color: #3B82F6;
     border-radius: 8px; 
-    transition: width 0.5s ease-in-out; /* adicionar transição suave */
+}
+
+/* Onda */
+
+.wave{
+    position: absolute;
+    width: 1000px;
+    top:24.7rem;
+    right: 11.6rem;
 }
 
