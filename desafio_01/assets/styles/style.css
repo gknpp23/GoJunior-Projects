@@ -1,0 +1,23 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3B82F6;
+}
+.card {
+    color: #CBD5E1;
+    display: flex;
+    justify-content: space-around;
+ 
+    overflow: hidden;
+    width: 900px;
+    height: 450px;
+    
+
+    border-radius: 30px;
+    background: linear-gradient(90deg, #0F172A 0%, #1E293B 100%, #1E293B 100%);
+    box-shadow: 0px 58px 75.4px -46px #172554;
+}
