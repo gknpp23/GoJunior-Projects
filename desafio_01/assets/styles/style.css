@@ -10,12 +10,13 @@ body {
     background-color: #3B82F6;
 }
 .card {
+    padding: 2rem;
     color: #CBD5E1;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
  
     overflow: hidden;
-    width: 900px;
+    width: 950px;
     height: 450px;
     
 
@@ -23,8 +24,27 @@ body {
     background: linear-gradient(90deg, #0F172A 0%, #1E293B 100%, #1E293B 100%);
     box-shadow: 0px 58px 75.4px -46px #172554;
 }
+h1 + .contact-info__text{
+    color: #94A3B8;
+    word-wrap: break-word;
+}
 
 .contact-info__profile{
     display: flex;
+    justify-content: space-between;
+    width: 35vw;
+}
+.contact-info__image{
+    width: 167px;
+    height: 167px; 
+    border-radius: 50%;
+    border: 8px solid #1E293B;
+    background: url("../img/foto-002.jpeg"), lightgray 100% / contain no-repeat;
+
+}
+
+progress::-moz-progress-bar {
+   
+    background-color: #3B82F6;
 }
 
