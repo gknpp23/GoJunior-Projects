@@ -43,8 +43,27 @@ h1 + .contact-info__text{
 
 }
 
-progress::-moz-progress-bar {
-   
+.progress-bar__item {
+   background-color: #0F172A;
+    
+}
+.progress-bar-inner{
     background-color: #3B82F6;
+}
+
+.progress-bar__item {
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    width: 0;
+    background-color: #3498db;
+    border-radius: 8px; 
+    transition: width 0.5s ease-in-out; /* adicionar transição suave */
 }
 
